@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+.Brand {
+    color: #B60014;
+}
+
+.Logo img {
+    width: 100%;
+    max-width: 100vw;
+    height: auto; 
+    display: block; 
+    overflow: hidden;
+}
+
+.Sources {
+    display: flex;
+    justify-content: center;
+    border: 1mm whitesmoke;
+}
+
+.Source_items {
+    border: 1px whitesmoke solid;
+    margin: 10px 10px;
+}
