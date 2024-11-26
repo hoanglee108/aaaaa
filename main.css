@@ -7,6 +7,7 @@
 
 a {
     text-decoration: none;
+    color: aliceblue;
 }
 
 .Brand {
@@ -21,6 +22,19 @@ a {
     overflow: hidden;
 }
 
+.Message {
+    display: flex;
+    justify-content: center;
+}
+
+.Download {
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    align-items: center;
+    padding-top: 20px;
+}
+
 .Sources {
     display: flex;
     justify-content: center;
@@ -30,4 +44,103 @@ a {
 .Source_items {
     border: 1px whitesmoke solid;
     margin: 10px 10px;
+}
+
+.Country {
+    display: flex;
+    justify-content: center;
+}
+
+.Introduce {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: aliceblue;
+}
+
+.items {
+    margin: 20px;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.video1 {
+    position: relative;
+    width: 30%; /* Full width of the parent */
+    padding-top: 20%; /* 16:9 aspect ratio */
+    overflow: hidden;
+}
+
+.video1 iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.Rules {
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.videos {
+    display: flex;
+    justify-content: center;
+}
+
+.videos_items {
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    align-items: center;
+}
+
+.Event {
+    padding-top: 30px;
+}
+
+.Image_list {
+    display: flex;
+    justify-content: center;
+}
+
+.image_items {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    align-items: center;
+}
+
+.News {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.line {
+    width: 80%;
+    height: 2px;
+    background-color: gray;
+    margin: 10px auto;
+}
+
+.Date {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    color: aliceblue;
+    margin-left: 10%;
+}
+
+.news_items {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-left: 100px;
 }
