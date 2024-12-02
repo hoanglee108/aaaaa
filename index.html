@@ -1,23 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="main.css">
+    <base href="/">
 </head>
+
 <body>
-    <div>
+    <div class="heading">
         <a href="https://www.konami.com/games/">
             <h2 class="Brand">KONAMI</h2>
         </a>
+        <select class="selection" id="region-language" name="region-language" onchange="location = this.value;">
+            <option value="" disabled selected hidden>Region/Language</option>
+            <option value="/yugioh/masterduel/jp/ja/" lang="ja">日本/日本語</option>
+            <option value="/yugioh/masterduel/us/en/" lang="en">US/English</option>
+            <option value="/yugioh/masterduel/us/es/" lang="es-419">US/Español</option>
+            <option value="/yugioh/masterduel/us/pt/" lang="pt-br">US/Português</option>
+            <option value="/yugioh/masterduel/eu/en/" lang="en">EU/English</option>
+            <option value="/yugioh/masterduel/eu/de/" lang="de">EU/Deutsch</option>
+            <option value="/yugioh/masterduel/eu/fr/" lang="fr">EU/Français</option>
+            <option value="/yugioh/masterduel/eu/it/" lang="it">EU/Italiano</option>
+            <option value="/yugioh/masterduel/eu/es/" lang="es">EU/Español</option>
+            <option value="/yugioh/masterduel/eu/pt/" lang="pt">EU/Português</option>
+            <option value="/yugioh/masterduel/oc/en/" lang="en">OC/English</option>
+            <option value="/yugioh/masterduel/asia/en/" lang="en">Asia/English</option>
+            <option value="/yugioh/masterduel/asia/zh-cn/" lang="zh-cn">亚洲/简体中文</option>
+            <option value="/yugioh/masterduel/asia/zh-tw/" lang="zh-tw">亞洲/繁体中文</option>
+        </select>
     </div>
     <div class="Logo">
-        <img  src="https://image.api.playstation.com/vulcan/ap/rnd/202408/0606/1e763b4b5cb31178da8ee071a086d1c67cc465841e35475f.jpg" 
-        alt="Master_Duel">
+        <img src="https://image.api.playstation.com/vulcan/ap/rnd/202408/0606/1e763b4b5cb31178da8ee071a086d1c67cc465841e35475f.jpg"
+            alt="Master_Duel">
     </div>
     <div class="Message">
-        <a href="https://www.konami.com/yugioh/masterduel/eu/en/message/"><h3>»Message from the Development Team</h3></a>
+        <a href="https://www.konami.com/yugioh/masterduel/eu/en/message/">
+            <h3>»Message from the Development Team</h3>
+        </a>
     </div>
     <div class="Download">
         <h3>This game supports cross-platform play!</h3>
@@ -25,25 +47,43 @@
     </div>
     <div>
         <div class="Sources">
-            <img class="Source_items" src="https://www.konami.com/yugioh/assets/badge/playstation45.png" alt="PS">
-            <img class="Source_items" src="https://www.konami.com/yugioh/assets/badge/xboxseriesone.png" alt="XB">
-            <img class="Source_items" src="https://www.konami.com/yugioh/assets/badge/steam-tall.png" alt="ST">
-            <img class="Source_items" src="https://www.konami.com/yugioh/assets/badge/nintendoswitch.png" alt="NTD">
+            <a href="https://store.playstation.com/en-us/concept/10001481">
+                <img class="Source_items" src="https://www.konami.com/yugioh/assets/badge/playstation45.png" alt="PS">
+            </a>
+            <a href="https://www.xbox.com/en-us/games/store/-/9N9GL8NX4WW8">
+                <img class="Source_items" src="https://www.konami.com/yugioh/assets/badge/xboxseriesone.png" alt="XB">
+            </a>
+            <a href="https://store.steampowered.com/app/1449850/YuGiOh_Master_Duel/?utm_source=kde&utm_medium=officialsite&utm_campaign=yugioh_master_duel">
+                <img class="Source_items" src="https://www.konami.com/yugioh/assets/badge/steam-tall.png" alt="ST">
+            </a>
+            <a href="https://www.nintendo.com/us/store/products/yu-gi-oh-master-duel-switch/">
+                <img class="Source_items" src="https://www.konami.com/yugioh/assets/badge/nintendoswitch.png" alt="NTD">
+            </a>
         </div>
         <div class="Sources">
-            <img class="Source_items" src="https://www.konami.com/yugioh/assets/badge/appstore-en.png" alt="AS">
-            <img class="Source_items" src="https://www.konami.com/yugioh/assets/badge/googleplay-en.png" alt="GP">
+            <a href="https://apps.apple.com/us/app/yu-gi-oh-master-duel/id1554247785">
+                <img class="Source_items" src="https://www.konami.com/yugioh/assets/badge/appstore-en.png" alt="AS">
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=jp.konami.masterduel&pli=1">
+                <img class="Source_items" src="https://www.konami.com/yugioh/assets/badge/googleplay-en.png" alt="GP">
+            </a>
         </div>
     </div>
     <div class="Country">
-        <a href="https://www.konami.com/yugioh/masterduel/eu/en/news/2">» Countries and regions where Yu-Gi-Oh! MASTER DUEL has launched on mobile (iOS, Android)</a>
+        <a href="https://www.konami.com/yugioh/masterduel/eu/en/news/2">» Countries and regions where Yu-Gi-Oh! MASTER
+            DUEL has launched on mobile (iOS, Android)</a>
     </div>
     <div class="Introduce">
+        <!-- <img  src="https://image.api.playstation.com/vulcan/ap/rnd/202408/0606/1e763b4b5cb31178da8ee071a086d1c67cc465841e35475f.jpg" alt=" bg"> -->
         <h2 class="items">An authentic Yu-Gi-Oh! Digital card game!</h2>
-        <h3 class="items">The definitive edition of the competitive card game that has been evolving for over 20 years!</h3>
+        <h3 class="items">The definitive edition of the competitive card game that has been evolving for over 20
+            years!</h3>
         <h3 class="items">Are you ready to enter the ultimate battle?</h3>
         <div class="video1">
-            <iframe src="https://www.youtube-nocookie.com/embed/WsJxk8l0zog?rel=01&controls=0&showinfo=0&wmode=transparent" frameborder="0"></iframe>
+            <iframe
+                src="https://www.youtube-nocookie.com/embed/WsJxk8l0zog?rel=01&controls=0&showinfo=0&wmode=transparent"
+                frameborder="0">
+            </iframe>
         </div>
         <h2 class="items">Yu-Gi-Oh! MASTER DUEL is free-to-play with in-game purchases available.</h2>
         <h2 class="items">Game data can be linked across multiple platforms.</h2>
@@ -59,7 +99,7 @@
                 <h6>Guide 1</h6>
                 <h5>~ Monster Cards and Spell Cards Basics ~</h5>
             </div>
-            <div class="">
+            <div class="videos_items">
                 <iframe src="https://www.youtube-nocookie.com/embed/JBovNyqXU_Y" frameborder="0"></iframe>
                 <h6>Guide 2</h6>
                 <h5>~ Trap Card Basics ~</h5>
@@ -129,37 +169,249 @@
             </div>
         </div>
     </div>
-    <h3 style="color: aliceblue; margin-left: 10%; margin-top:20px">N E W S</h3>
-    <div class="line"></div>
-    <div class="News">
-        <div class="Date">
-            <h4>2024.05.31</h4>
-            <h4>2023.05.12</h4>
-            <h4>2023.05.10</h4>
-            <h4>2023.04.17</h4>
+    <div class="news"
+        style="display: flex; color: aliceblue; justify-content: space-between; margin: 50px auto; width:70%">
+        <div>
+            <h2>NEWS</h2>
+            <ul>
+                <li><a href="../../eu/en/news/wcs2024" target="_blank" class="txt"><time
+                            style="width: 76px; margin-right: 50px;">2024.05.31</time>Announcement:
+                        "Yu-Gi-Oh! World Championship 2024"</a></li>
+                <hr>
+                <li><span class="txt"><time style="width: 76px; margin-right: 50px;">2023.05.12</time>「Road to
+                        Worlds:Proficiency Test 2023」 [ Ended ]</span>
+                </li>
+                <hr>
+                <li><a href="../../eu/en/news/wcs2023cp" target="_blank" class="txt"><time
+                            style="width: 76px; margin-right: 50px;">2023.05.10</time>Road to
+                        Worlds! Campaign</a></li>
+                <hr>
+                <li><a href="../../eu/en/news/wcs2023" target="_blank" class="txt"><time
+                            style="width: 76px; margin-right: 50px;">2023.04.17</time>Announcement:
+                        "Yu-Gi-Oh! World Championship 2023"</a></li>
+            </ul>
         </div>
-        <div class="news_items">
-            <a href="https://www.konami.com/yugioh/masterduel/eu/en/news/wcs2024">Announcement: "Yu-Gi-Oh! World Championship 2024"</a>
-            <a href="">「Road to Worlds:Proficiency Test 2023」 [ Ended ]</a>
-            <a href="https://www.konami.com/yugioh/masterduel/eu/en/news/wcs2023cp">Road to Worlds! Campaign</a>
-            <a href="https://www.konami.com/yugioh/masterduel/eu/en/news/wcs2023">Announcement: "Yu-Gi-Oh! World Championship 2023"</a>
+        <section class="sns">
+            <h2>X</h2>
+            <div class="mCustomScrollbar _mCS_2">
+                <div id="mCSB_2" class="mCustomScrollBox mCS-light-3 mCSB_vertical mCSB_inside" tabindex="0"
+                    style="height: 400px; overflow-y: auto;">
+                    <div id="mCSB_2_container" class="mCSB_container" style="position: relative; top: 0px; left: 0px;"
+                        dir="ltr">
+                        <div class="twitter-timeline twitter-timeline-rendered"
+                            style="display: flex; max-width: 100%; margin-top: 0px; margin-bottom: 0px;"><iframe
+                                id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true"
+                                allowfullscreen="true" class="" title="Twitter Timeline"
+                                src="https://syndication.twitter.com/srv/timeline-profile/screen-name/YuGiOhCardEU?dnt=false&amp;embedId=twitter-widget-0&amp;features=eyJ0ZndfdGltZWxpbmVfbGlzdCI6eyJidWNrZXQiOltdLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X2ZvbGxvd2VyX2NvdW50X3N1bnNldCI6eyJidWNrZXQiOnRydWUsInZlcnNpb24iOm51bGx9LCJ0ZndfdHdlZXRfZWRpdF9iYWNrZW5kIjp7ImJ1Y2tldCI6Im9uIiwidmVyc2lvbiI6bnVsbH0sInRmd19yZWZzcmNfc2Vzc2lvbiI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9LCJ0ZndfZm9zbnJfc29mdF9pbnRlcnZlbnRpb25zX2VuYWJsZWQiOnsiYnVja2V0Ijoib24iLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X21peGVkX21lZGlhXzE1ODk3Ijp7ImJ1Y2tldCI6InRyZWF0bWVudCIsInZlcnNpb24iOm51bGx9LCJ0ZndfZXhwZXJpbWVudHNfY29va2llX2V4cGlyYXRpb24iOnsiYnVja2V0IjoxMjA5NjAwLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X3Nob3dfYmlyZHdhdGNoX3Bpdm90c19lbmFibGVkIjp7ImJ1Y2tldCI6Im9uIiwidmVyc2lvbiI6bnVsbH0sInRmd19kdXBsaWNhdGVfc2NyaWJlc190b19zZXR0aW5ncyI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9LCJ0ZndfdXNlX3Byb2ZpbGVfaW1hZ2Vfc2hhcGVfZW5hYmxlZCI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9LCJ0ZndfdmlkZW9faGxzX2R5bmFtaWNfbWFuaWZlc3RzXzE1MDgyIjp7ImJ1Y2tldCI6InRydWVfYml0cmF0ZSIsInZlcnNpb24iOm51bGx9LCJ0ZndfbGVnYWN5X3RpbWVsaW5lX3N1bnNldCI6eyJidWNrZXQiOnRydWUsInZlcnNpb24iOm51bGx9LCJ0ZndfdHdlZXRfZWRpdF9mcm9udGVuZCI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9fQ%3D%3D&amp;frame=false&amp;hideBorder=true&amp;hideFooter=true&amp;hideHeader=true&amp;hideScrollBar=true&amp;lang=en&amp;origin=https%3A%2F%2Fwww.konami.com%2Fyugioh%2Fmasterduel%2Feu%2Fen%2F&amp;sessionId=6a8e649b919f6a3320140ffa4530b4a769915cd6&amp;showHeader=false&amp;showReplies=false&amp;siteScreenName=YuGiOhCardEU&amp;theme=dark&amp;transparent=true&amp;widgetsVersion=2615f7e52b7e0%3A1702314776716"
+                                style="position: static; visibility: visible; width: 390px; height: 8252px; display: block; flex-grow: 1; pointer-events: auto;"></iframe>
+                        </div>
+                        <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    </div>
+                    <div id="mCSB_2_scrollbar_vertical"
+                        class="mCSB_scrollTools mCSB_2_scrollbar mCS-light-3 mCSB_scrollTools_vertical"
+                        style="display: block;">
+                        <div class="mCSB_draggerContainer">
+                            <div id="mCSB_2_dragger_vertical" class="mCSB_dragger"
+                                style="position: absolute; min-height: 30px; height: 19px; top: 0px; display: block; max-height: 390px;">
+                                <div class="mCSB_dragger_bar" style="line-height: 30px;"></div>
+                            </div>
+                            <div class="mCSB_draggerRail"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="Product">
+        <h3 style="color: aliceblue; margin-bottom: 10px;">PRODUCT</h3>
+        <hr>
+        <div class="Info">
+            <img style="width: 20%;" src="https://www.konami.com/yugioh/masterduel/images/logo.png" alt="mtd">
+            <div style="color: aliceblue; display: flex; justify-content: left;">
+                <table>
+                    <tr>
+                        <th>Gerne</th>
+                        <td>Card Games</td>
+                    </tr>
+                    <tr>
+                        <th>Languages</th>
+                        <td>Japanese, English, French, Italian, German, Spanish, Korean, Portuguese,Simplified Chinese,
+                            Traditional Chinese</td>
+                    </tr>
+                    <tr>
+                        <th>Price</th>
+                        <td>Free-to-play with in-app purchases</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <h4 style="color: aliceblue; margin-top: 30px;">System Requirements</h4>
+        <div class="Require" style="color: aliceblue;">
+            <table style="display: flex; width: 90%; justify-content: space-between; margin: 0 auto;">
+                <tr>
+                    <th>&nbsp;</th>
+                    <th>Minimum</th>
+                    <th>Recommended</th>
+                </tr>
+                <tr>
+                    <th>OS</th>
+                    <td>Windows 10 Home (64bit) latest revision </td>
+                    <td>Windows 10 Home (64bit) latest revision </td>
+                </tr>
+                <th>CPU </th>
+                <td>Intel Core i5-7300U or equivalent</td>
+                <td>intel Core i5-9400F or equivalent</td>
+                </tr>
+                <tr>
+                    <th>Memory </th>
+                    <td>8GB RAM</td>
+                    <td>8GB RAM</td>
+                </tr>
+                <tr>
+                    <th>Graphics Card </th>
+                    <td>Intel(R) HD Graphics 620 or equivalent </td>
+                    <td>NVIDIA GeForce GTX 1650 or equivalent </td>
+                </tr>
+                <tr>
+                    <th>Screen Resolution </th>
+                    <td>1280 x 720</td>
+                    <td>1920 x 1080</td>
+                </tr>
+                <tr>
+                    <th>Storage </th>
+                    <td>16BG or higher</td>
+                    <td>16BG or higher</td>
+                </tr>
+                <tr>
+                    <th>Internet </th>
+                    <td>Broadband Connection</td>
+                    <td>Broadband Connection</td>
+                </tr>
+                <tr>
+                    <th>Sound Card </th>
+                    <td>On board</td>
+                    <td>On board</td>
+                </tr>
+                <tr>
+                    <th>DirectX</th>
+                    <td>DirectX 11</td>
+                    <td>DirectX 11</td>
+                </tr>
+            </table>
+        </div>
+        <div class="Mobile" style="display: flex; justify-content: space-between;">
+            <div>
+                <table style="color: aliceblue; text-align: left;">
+                    <tr>
+                        <td>iOS</td>
+                    </tr>
+                    <tr>
+                        <td>Requires iOS 13.0 or later</td>
+                    </tr>
+                    <tr>
+                        <td>iPhone 8 or later </td>
+                    </tr>
+                </table>
+            </div>
+            <div>
+                <table style="color: aliceblue; text-align: left;">
+                    <tr>
+                        <td>Android</td>
+                    </tr>
+                    <tr>
+                        <td>Requires Android OS version 6.0 or later</td>
+                    </tr>
+                    <tr>
+                        <td>Pixel3 or later </td>
+                    </tr>
+                    <tr>
+                        <td>RAM 4GB</td>
+                    </tr>
+                </table>
+            </div>
         </div>
     </div>
-    <!-- <div class="Cookies">
-        <div class="Terms">
-
+    <div>
+        <div class="Sources">
+            <img class="Source_items" src="https://www.konami.com/yugioh/assets/badge/playstation45.png" alt="PS">
+            <img class="Source_items" src="https://www.konami.com/yugioh/assets/badge/xboxseriesone.png" alt="XB">
+            <img class="Source_items" src="https://www.konami.com/yugioh/assets/badge/steam-tall.png" alt="ST">
+            <img class="Source_items" src="https://www.konami.com/yugioh/assets/badge/nintendoswitch.png" alt="NTD">
         </div>
-        <div class="Button">
-            <li class="Cookies_setting">
-
-            </li>
-            <li class="Cookies_select">
-
-            </li>
-            <li class="Cookies_select">
-
-            </li>
+        <div class="Sources">
+            <img class="Source_items" src="https://www.konami.com/yugioh/assets/badge/appstore-en.png" alt="AS">
+            <img class="Source_items" src="https://www.konami.com/yugioh/assets/badge/googleplay-en.png" alt="GP">
         </div>
-    </div> -->
+    </div>
+    <div>
+        <p class="PS" style="color: aliceblue; width: 50%; margin: 0 auto; text-align: center; font-size: small;">
+            " <img src="https://www.konami.com/yugioh/assets/svg/ps.svg" alt="ps"> ", "PlayStation", " <img
+                src="https://www.konami.com/yugioh/assets/svg/ps5r.svg" alt="ps5">" and " <img
+                src="https://www.konami.com/yugioh/assets/svg/ps4r.svg" alt="ps4"> " are registered trademarks or
+            trademarks of Sony Interactive Entertainment Inc.
+            Microsoft, the Xbox Sphere mark, Xbox One logo, Series X|S logo, Xbox One, and Xbox Series X|S are
+            trademarks of the Microsoft group of companies.
+            ©2024 Valve Corporation. Steam and the Steam logo are trademarks and/or registered trademarks of Valve
+            Corporation in the U.S. and/or other countries.
+            Nintendo Switch™ and The Nintendo Switch logo are registered trademarks of Nintendo.
+            Apple and the Apple logo are trademarks of Apple Inc., registered in the U.S. and other countries. App Store
+            is a service mark of Apple Inc.
+            Google Play and the Google Play logo are trademarks of Google LLC.
+        </p>
+    </div>
+    <div>
+        <div class="Sources">
+            <img class="Source_items" src="https://www.konami.com/yugioh/assets/rating/pegi-7.png" alt="PS">
+            <img class="Source_items" src="https://www.konami.com/yugioh/assets/rating/pegi-fear_en.png" alt="XB">
+            <img class="Source_items" src="https://www.konami.com/yugioh/assets/rating/pegi-ingamepurchases_en.png"
+                alt="ST">
+        </div>
+        <h4 style="color: aliceblue; display: flex; justify-content: center;">In-Game Purchases(Includes Random Items)
+        </h4>
+    </div>
+    <div style="color: aliceblue; display: flex; flex-direction: column; align-items: center; margin-top: 20px;">
+        <h5>©2020 Studio Dice／SHUEISHA, TV TOKYO, KONAMI</h5>
+        <h5>©Konami Digital Entertainment</h5>
+    </div>
+    <div class="foot_share">
+        <div class="share-container">
+            <span class="share-text">SHARE</span>
+            <div class="icons">
+                <a
+                    href="https://x.com/intent/post?text=Yu-Gi-Oh%21+Master+Duel+-+The+definitive+edition+of+the+competitive+card+game+that+has+been+evolving+for+over+20+years%21++https%3A%2F%2Fwww.konami.com%2Fyugioh%2Fmasterduel%2Feu%2Fen%2F">
+                    <img src="https://static.vecteezy.com/system/resources/previews/034/716/140/non_2x/x-new-twitter-logo-free-png.png"
+                        alt="X"></a>
+                <a href="https://www.facebook.com/share_channel/#"><img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Facebook_logo_%28square%29.png/640px-Facebook_logo_%28square%29.png"
+                        alt="Facebook"></a>
+                <a
+                    href="line://msg/text/Yu-Gi-Oh%21+Master+Duel+-+The+definitive+edition+of+the+competitive+card+game+that+has+been+evolving+for+over+20+years%21++https%3A%2F%2Fwww.konami.com%2Fyugioh%2Fmasterduel%2Feu%2Fen%2F"><img
+                        src="https://play-lh.googleusercontent.com/C58NA7weHhYgoHUvpq2L8YKCFSrlDdDLJSUmZpcZoVOQsT9NDmFqwOGzNrlcDcf4T54"
+                        alt="Line"></a>
+            </div>
+        </div>
+        <div class="top">
+            <img style="filter: invert(100%) brightness(50%); transform: rotate(180deg); width: 30px;"
+                src="https://img.konami.com/yugioh/assets/svg/pageancor.svg" alt="top">
+            <a href="#" class="inpage">Page TOP</a>
+        </div>
+    </div>
+    <div class="foot_info">
+        <ul class="konami_links">
+            <li><a href="https://www.konami.com/games/" target="_blank">KONAMI Games TOP</a></li>
+            <li><a href="https://masterduel-inq.konami.net/ayk/i/" target="_blank">Contact Us</a></li>
+            <li><a href="https://legal.konami.com/games/privacy/" target="_blank">Privacy Policy</a></li>
+            <li><a href="https://www.konami.com/siteinfo/en/" target="_blank">Terms of Service</a></li>
+            <li>
+                <!-- OneTrust Cookie 設定ボタンの始点 -->
+                <button id="ot-sdk-btn" class="ot-sdk-show-settings">Cookies Settings</button>
+                <!-- OneTrust Cookie 設定ボタンの終点 -->
+            </li>
+        </ul>
+        <a href="https://legal.konami.com/games/do-not-sell-my-personal-information/" class="ccpa" target="_blank">Do
+            Not Sell My Personal Information</a>
+        <small class="site-copyright">©2024 Konami Digital Entertainment</small>
+    </div>
 </body>
+
 </html>

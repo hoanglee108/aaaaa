@@ -2,6 +2,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+body {
     background-color: black;
 }
 
@@ -12,6 +14,18 @@ a {
 
 .Brand {
     color: #B60014;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.selection {
+    border: none;
+    background: black;
+    outline: none;
+    color: aliceblue;
 }
 
 .Logo img {
@@ -51,6 +65,9 @@ a {
     justify-content: center;
 }
 
+img {
+    max-width: 100%;
+}
 .Introduce {
     display: flex;
     flex-direction: column;
@@ -98,6 +115,7 @@ a {
     flex-direction: column;
     color: aliceblue;
     align-items: center;
+    margin: auto 10px;
 }
 
 .Event {
@@ -117,30 +135,140 @@ a {
     align-items: center;
 }
 
-.News {
-    margin-top: 10px;
-    display: flex;
-    flex-direction: row;
+ul {
+    list-style: none;
 }
 
-.line {
-    width: 80%;
-    height: 2px;
-    background-color: gray;
+hr {
+    color: gray;
+}
+
+/* Scroll bar stylings */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: var(--lightestgrey); 
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+  .Product {
+    width: 70%;
+    margin: 20px auto;
+  }
+
+  .Info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between 200px;
+  }
+
+  .Type {
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    justify-content: space-between 100px;
+  }
+
+  th, td {
+    text-align: left;
+    padding: 0.5rem;
+  }
+
+  .Require table th, td {
+    padding: 0 3rem;
+  }
+
+  .Mobile {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 1rem;
+    margin: 0 auto;
+  }
+
+ p.PS img {
+    filter: invert(60%) sepia(97%) saturate(5%) hue-rotate(103deg) brightness(96%) contrast(90%);
+    height: 1em;
+  }
+  .rating {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    color: aliceblue;
+  }
+
+.foot_share {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto;
+}
+
+.share-container {
+    display: flex;            
+    align-items: center;      
+    justify-content: start;
+    gap: 10px;               
+  }
+
+  .share-text {
+    font-size: 14px;        
+    color: #aaa;            
+    text-transform: uppercase; 
+  }
+
+  .icons img {
+    width: 32px;             
+    height: 32px;          
+    border-radius: 4px; 
+  }
+
+.top {
+    font-size: larger;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.foot_info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #aaa;
+}
+
+.konami_links {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.ccpa {
+    display: flex;
+    justify-content: center;
+    width: 50%;
     margin: 10px auto;
 }
 
-.Date {
+.site-copyright {
     display: flex;
-    flex-direction: column;
-    align-items: left;
-    color: aliceblue;
-    margin-left: 10%;
-}
-
-.news_items {
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    margin-left: 100px;
+    justify-content: center;
+    width: 50%;
+    margin: 10px auto;
 }
